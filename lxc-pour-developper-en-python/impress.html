@@ -1,0 +1,575 @@
+<html style="height: 100%;"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Deck Title</title>
+
+<meta name="description" content="TODO">
+<meta name="author" content="TODO">
+
+<style>
+.componentContainer {
+    position: absolute;
+    line-height: normal;
+    /*-webkit-transform-origin: 135% 135%;
+    -moz-transform-origin: 135% 135%;
+    transform-origin: 135% 135%;*/
+}
+
+.transformContainer {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<link rel="stylesheet" href="impress_fichiers/default-reset.css">
+<link href="impress_fichiers/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="impress_fichiers/default.css" id="theme">
+<link href="impress_fichiers/web-fonts.css" rel="stylesheet" type="text/css">
+<link href="impress_fichiers/backgroundClasses.css" rel="stylesheet" type="text/css">
+<link href="impress_fichiers/surfaceClasses.css" rel="stylesheet" type="text/css">
+
+<link rel="shortcut icon" href="http://strut.io/editor/preview_export/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="http://strut.io/editor/preview_export/apple-touch-icon.png" type="image/png">
+
+<style>
+.reveal.themedArea {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<script async="" src="impress_fichiers/analytics.js"></script><script type="text/javascript" src="impress_fichiers/dataset-shim.js"></script>
+<script type="text/javascript" src="impress_fichiers/impress.js"></script>
+
+<script src="impress_fichiers/onready.js"></script>
+<script src="impress_fichiers/loadPresentation.js"></script>
+<script>
+ready(function() {
+    if (document.getElementById('launched-placeholder'))
+        loadPresentation();
+
+    if (!window.presStarted) {
+        startPres(document, window);
+        impress().init();   
+    }
+
+    if ("ontouchstart" in document.documentElement) { 
+        document.querySelector(".hint").innerHTML = 
+            "<p>Tap on the left or right to navigate</p>";
+    }
+});
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-42322531-1', 'strut.io');
+    ga('send', 'pageview');
+    </script>
+</head>
+<body class="impress-supported impress-enabled" style="height: 100%; overflow: hidden;">
+<style type="text/css">
+.strut-surface .themedArea h1, .strut-surface .themedArea h2, .strut-surface .themedArea h3, .strut-surface .themedArea h4, .strut-surface .themedArea h5, .strut-surface .themedArea h6{
+  color: #742525;
+}
+
+.strut-surface .themedArea h1 {
+  font-size: 2em;
+}
+.strut-surface .themedArea{
+  color: #CBEF6A;
+}
+.strut-surface .themedArea pre {
+  background: rgba(0,0,0,.5);
+  border-radius: .5em;
+  padding: .5em;
+}
+.strut-surface .themedArea code {
+    font-family: monospace;
+    font-size: .9em;
+    color: #89f069;
+}
+.strut-surface .themedArea > ul:hover, .strut-surface .themedArea > p:hover {
+    background: rgba(0,0,0,.7);
+}
+.strut-surface .themedArea ul {
+  margin-left: 0;
+}
+.strut-surface .themedArea li {
+  margin-left: 1em;
+}
+.strut-surface .themedArea a {
+	color: #7adff5;
+	text-decoration: none;
+}
+</style>
+<style>
+
+</style>
+<style>
+
+
+
+	
+		
+		
+	
+
+	
+		
+		
+		.slideContainer.strut-slide-1 {
+			background-image: url(images/9LCF8IwHf2HQY_giphy.gif);
+		}
+		
+	
+
+	
+		
+		
+		.slideContainer.strut-slide-2 {
+			background-image: url(images/uirZilfaQk85a_giphy.gif);
+		}
+		
+	
+
+	
+		
+		
+		.slideContainer.strut-slide-3 {
+			background-image: url(images/ZE6dnP8Yw6X16_giphy.gif);
+		}
+		
+	
+
+	
+		
+		
+		.slideContainer.strut-slide-4 {
+			background-image: url(images/V6iCjFGMbGLEQ_giphy.gif);
+		}
+		
+	
+
+	
+		
+		
+		.slideContainer.strut-slide-5 {
+			background-image: url(images/10TKRuZw4UQuI_giphy.gif);
+		}
+		
+	
+
+	
+		
+		
+		.slideContainer.strut-slide-6 {
+			background-image: url(images/ftGTY1fO9ARUI_giphy.gif);
+		}
+		
+	
+
+	
+		
+		
+		.slideContainer.strut-slide-7 {
+			background-image: url(images/kZYHrYwukDulG_giphy.gif);
+		}
+		
+	
+
+	
+		
+		
+		.slideContainer.strut-slide-8 {
+			background-image: url(images/ttCbi8U3Exriw_giphy.gif);
+		}
+		
+	
+
+	
+		
+		
+		.slideContainer.strut-slide-9 {
+			background-image: url(images/7aGkF11EUpvkQ_giphy.gif);
+		}
+		
+	
+
+	
+		
+		
+		.slideContainer.strut-slide-10 {
+			background-image: url(images/13ScR58SFUcFVe_giphy.gif);
+		}
+		
+	
+
+	
+		
+		
+		.slideContainer.strut-slide-11 {
+			background-image: url(images/tayDCO2Wuphi8_giphy.gif);
+		}
+		
+	
+
+</style>
+<!-- This is a work around / hack to get the user's browser to download the fonts 
+ if they decide to save the presentation. -->
+<div style="visibility: hidden; width: 0px; height: 0px">
+<img src="impress_fichiers/Lato-Bold.bin">
+<img src="impress_fichiers/HammersmithOne.bin">
+<img src="impress_fichiers/Droid-Sans-Mono.bin">
+<img src="impress_fichiers/Gorditas-Regular.bin">
+<img src="impress_fichiers/FredokaOne-Regular.bin">
+<img src="impress_fichiers/Ubuntu.bin">
+<img src="impress_fichiers/Ubuntu-Bold.bin">
+<img src="impress_fichiers/PressStart2P-Regular.bin">
+<img src="impress_fichiers/Lato-BoldItalic.bin">
+<img src="impress_fichiers/AbrilFatface-Regular.bin">
+<img src="impress_fichiers/Lato-Regular.bin">
+</div>
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div class="bg  strut-surface">
+<div class="bg innerBg strut-slide-3">
+<div id="impress" style="position: absolute; transform-origin: left top 0px; transition: all 500ms ease-in-out 250ms; transform-style: preserve-3d; top: 50%; left: 50%; transform: perspective(3000px) scale(0.333333);"><div style="position: absolute; transform-origin: left top 0px; transition: all 500ms ease-in-out 0ms; transform-style: preserve-3d; transform: rotateZ(0deg) rotateY(0deg) rotateX(0deg) translate3d(-13448.5px, -2565.12px, 0px);">
+	
+		
+			<div class="step future" data-state="strut-slide-0" data-x="2184.5333333333333" data-y="2457.6" data-scale="3" id="step-1" style="position: absolute; transform: translate(-50%, -50%) translate3d(2184.53px, 2457.6px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-0" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="lxc-pour-d-velopper-en-python">LXC pour développer en python</h1>
+<p>LXC: LinuX Containers</p>
+
+			</div>
+			
+			<div class="componentContainer " style="top: 398px; left: 360px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="impress_fichiers/containers.png">
+</div>
+</div>
+			
+			<div class="componentContainer " style="top: 330px; left: 415px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+<div class="transformContainer" style="-webkit-transform: scale(1, 1);
+-moz-transform: scale(1, 1);
+transform: scale(1, 1)">
+<img src="impress_fichiers/python-logo-large.png">
+</div>
+</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-1" data-x="5925.546666666667" data-y="2565.12" data-scale="3" id="step-2" style="position: absolute; transform: translate(-50%, -50%) translate3d(5925.55px, 2565.12px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-1" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="lxc-c-est-quoi-">LXC c'est quoi ?</h1>
+<ul>
+<li><p>LXC est un système de conteneurs </p>
+</li>
+<li><p>Un conteneur ≃ machine virtuelle légère</p>
+<ul>
+<li>partage réel (sans pré-allocation) de l'espace disque / mémoire / CPU</li>
+<li>meilleurs performances (pas d'émulation)</li>
+</ul>
+</li>
+<li><p>même noyaux mais isolation des processus, de la mémoire, du réseau, des fichiers</p>
+</li>
+<li><p><a href="https://linuxcontainers.org/">https://linuxcontainers.org/</a> </p>
+</li>
+</ul>
+
+			</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-2" data-x="9748.48" data-y="2565.12" data-scale="3" id="step-3" style="position: absolute; transform: translate(-50%, -50%) translate3d(9748.48px, 2565.12px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-2" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="python-c-est-quoi-">Python c'est quoi ?</h1>
+<p>un groupe de comiques</p>
+
+			</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step present active" data-state="strut-slide-3" data-x="13448.533333333333" data-y="2565.12" data-scale="3" id="step-4" style="position: absolute; transform: translate(-50%, -50%) translate3d(13448.5px, 2565.12px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-3" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="lxc-ou-docker-">LXC ou Docker ?</h1>
+<ul>
+<li><p>LXC :</p>
+<ul>
+<li>plus simple à comprendre</li>
+<li>périmètre plus restreint mais facile à combiner à d'autres outils</li>
+</ul>
+</li>
+<li><p>Docker :</p>
+<ul>
+<li>univers plus important et un peu plus complexe</li>
+<li>plus d'avantages techniques (gestion simple des liens réseau, images installables…)</li>
+<li>a un joli logo</li>
+</ul>
+</li>
+<li><p>Les deux </p>
+<ul>
+<li>sont mûrs et bien supportés</li>
+<li>s'appuyent sur les mêmes mécanismes du noyau</li>
+</ul>
+</li>
+</ul>
+
+			</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-4" data-x="13489.493333333334" data-y="5637.12" data-scale="3" id="step-5" style="position: absolute; transform: translate(-50%, -50%) translate3d(13489.5px, 5637.12px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-4" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="lxc-ou-virtualenv-">LXC ou Virtualenv ?</h1>
+<ul>
+<li><p>Utiliser virtualenv quand:</p>
+<ul>
+<li>il y a seulement des dépendances de librairies python 
+ex: librairie python, projet web simple</li>
+</ul>
+</li>
+<li><p>Utiliser LXC quand:</p>
+<ul>
+<li><p>il y a des dépendances systèmes lourdes</p>
+<ul>
+<li>nodejs, version de python spécifique</li>
+<li>numpy et consort…</li>
+</ul>
+</li>
+<li><p>il y a des outils externes:</p>
+<ul>
+<li>frontal</li>
+<li>serveur de BDD, NoSQL</li>
+<li>serveur de cache, d'indexation</li>
+<li>message broker</li>
+</ul>
+</li>
+<li><p>on veut se rapprocher d'un setup de production</p>
+</li>
+</ul>
+</li>
+</ul>
+
+			</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-5" data-x="13571.413333333334" data-y="8632.32" data-scale="3" id="step-6" style="position: absolute; transform: translate(-50%, -50%) translate3d(13571.4px, 8632.32px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-5" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="lxc-commandes">LXC commandes</h1>
+<ul>
+<li><p>avec ou sans <code>sudo</code> (voir plus loin, espace utilisateur)</p>
+</li>
+<li><p>liste des containers avec état et ip:
+<code>lxc-ls -f</code></p>
+</li>
+<li><p>création (les options de la template sont après un <code>--</code>):
+<code>lxc-create -n moncontainer -t download</code></p>
+</li>
+<li><p>démarrer:
+<code>lxc-start -n moncontainer</code></p>
+</li>
+<li>arréter:
+<code>lxc-stop -n moncontainer</code></li>
+<li>exécuter une commande directement (en <code>root</code> dans le container, ici bash)
+<code>lxc-attach -n moncontainer bash</code></li>
+<li>se connecter à une console (alternative à ssh):
+<code>lxc-console -n moncontainer</code></li>
+</ul>
+
+			</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-6" data-x="13626.026666666667" data-y="11535.36" data-scale="3" id="step-7" style="position: absolute; transform: translate(-50%, -50%) translate3d(13626px, 11535.4px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-6" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="dans-ton-lxc">Dans ton LXC</h1>
+<ul>
+<li><code>apt install</code>, en veux tu, en voilà</li>
+<li><code>sudo pip3 install</code> comme tu veux</li>
+<li>installe la version de l'OS ton choix (attention à la compatibilité noyau)</li>
+<li><code>./manage runserver 0:8000</code> ➔ <a href="http://moncontainer.lxc:8000/">http://moncontainer.lxc:8000/</a></li>
+<li>j'utilise git en dehors du container</li>
+</ul>
+
+			</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-7" data-x="10089.813333333334" data-y="11642.88" data-scale="3" id="step-8" style="position: absolute; transform: translate(-50%, -50%) translate3d(10089.8px, 11642.9px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-7" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="partager-le-home">Partager le home</h1>
+<ul>
+<li><code>bindfs</code> est la solution qui me semble la plus simple et efficace.<pre><code class="lang-bash">$ sudo bindfs /home/alex/.local/share/lxc/moncontainer/rootfs/home/ubuntu/ \
+  /home/alex/lxc/moncontainer  --map=166536/alex:@166536/@alex</code></pre>
+</li>
+<li>autre solution: le home dans le container (<code>/home/ubuntu</code>)
+est un montage d'un dossier hors container (via <code>~/.local/share/lxc/moncontainer/fstab</code>)
+Attention sur ubuntu il faut utiliser le profil de sécurité adéquat:<pre><code class="lang-ini">lxc.aa_profile = lxc-container-default-with-mounting</code></pre>
+</li>
+</ul>
+
+			</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-8" data-x="6444.373333333333" data-y="11673.6" data-scale="3" id="step-9" style="position: absolute; transform: translate(-50%, -50%) translate3d(6444.37px, 11673.6px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-8" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="lxc-espace-utilisateur">LXC espace utilisateur</h1>
+<ul>
+<li>voir <a href="https://linuxcontainers.org/fr/lxc/getting-started/">https://linuxcontainers.org/fr/lxc/getting-started/</a></li>
+<li>sur ubuntu, paquet <strong>lxc</strong></li>
+<li><pre><code class="lang-bash">$ cat /etc/lxc/lxc-usernet
+# USERNAME TYPE BRIDGE COUNT
+alex veth lxcbr0 10</code></pre>
+</li>
+<li><pre><code class="lang-bash">$ cat /etc/subuid
+alex:165536:65536
+$ cat /etc/subgid
+alex:165536:65536</code></pre>
+</li>
+<li><pre><code class="lang-bash">$ mkdir ~/.config/lxc
+$ cp /etc/lxc/default.conf ~/.config/lxc/default.conf
+$ cat &gt;&gt;/etc/lxc/default.conf &lt;&lt;END
+  lxc.id_map = u 0 100000 65536
+  lxc.id_map = g 0 100000 65536
+  END</code></pre>
+</li>
+<li><pre><code class="lang-bash">setfacl -m u:100000:rx /home/alex/{,.local{,/share{,/lxc}}}</code></pre>
+</li>
+</ul>
+
+			</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-9" data-x="2170.88" data-y="11596.8" data-scale="3" id="step-10" style="position: absolute; transform: translate(-50%, -50%) translate3d(2170.88px, 11596.8px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-9" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="r-solution-de-noms">Résolution de noms</h1>
+<ul>
+<li><p>En théorie dnsmask peut gérer les noms lxc:</p>
+<pre><code class="lang-bash">$ # enable lxc dnsmasq and bind to lxcbr0
+$ cat /etc/lxc-net
+  ...
+  LXC_DOMAIN="lxc"
+$ cat /etc/dnsmasq.d/lxc 
+  bind-interfaces
+  except-interface=lxcbr0
+$ # add lxc dns to networkmanager dns list
+$ cat /etc/NetworkManager/dnsmasq.d/lxc.conf 
+  server=/lxc/10.0.3.1
+$ # you can event add aliases
+$ cat /etc/NetworkManager/dnsmasq.d/moncontainer-alias 
+  cname=sous.moncontainer.lxc,moncontainer.lxc</code></pre>
+</li>
+<li><p>En pratique dnsmasq semble perdre la mémoire après mise en veille…
+j'utilise donc un bon vieux <code>/etc/host</code>, les ips des containers étant stables</p>
+</li>
+</ul>
+
+			</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-10" data-x="2211.84" data-y="8693.76" data-scale="3" id="step-11" style="position: absolute; transform: translate(-50%, -50%) translate3d(2211.84px, 8693.76px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-10" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="astuces">Astuces</h1>
+<ul>
+<li>pour copier : <code>rsync -ap --numeric-ids</code></li>
+<li><code>lxc-freeze</code> et <code>lxc-unfreeze</code> pour mettre en pause</li>
+<li>si besoin du ssh-agent dans le container, passer par un session ssh</li>
+<li>accès à un port localhost depuis l'extérieur ssh + port forwarding ou règle iptables</li>
+</ul>
+
+			</div>
+			
+			</div>
+		
+		</div>
+	
+		
+			<div class="step future" data-state="strut-slide-11" data-x="2198.1866666666665" data-y="5683.2" data-scale="3" id="step-12" style="position: absolute; transform: translate(-50%, -50%) translate3d(2198.19px, 5683.2px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+			<div class=" slideContainer strut-slide-11" style="width: 1024px; height: 768px;">
+			<div class="themedArea">
+			<h1 id="merci">Merci</h1>
+<p>alex -AT- garel -POINT- org
+<a href="http://jurismarches.com/">http://jurismarches.com</a></p>
+
+			</div>
+			
+			</div>
+		
+		</div>
+	
+	<div id="overview" class="step future" data-state="strut-slide-overview" data-x="7898.453333333333" data-y="7065.6" data-scale="9" style="position: absolute; transform: translate(-50%, -50%) translate3d(7898.45px, 7065.6px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(9); transform-style: preserve-3d;"></div>
+	
+</div></div>
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+</div>
+</div></body></html>
